@@ -39,7 +39,7 @@ Here you'll find proper instructions for the steps to set up the System Project.
     - See the package.json for more webpack compilation options.
 
 - **Run migration for table and data creation:**
-    - php artisan migrate --seed
+    - php artisan migrate
 
 - **Run the Laravel API project:**
     - php artisan serve --host localhost --port 8000
