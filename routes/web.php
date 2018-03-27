@@ -12,10 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
 
-
-Route::group(['prefix' => 'admin'], function () {
-    Voyager::routes();
-});
+//Product Routes
+Route::resource('/products', 'ProductController');
