@@ -98,14 +98,11 @@
                                             <td width="20%">
                                                 <h4>$ {{ $product->price_per_item * $product->quantity_in_stock }}</h4>
                                             </td>
-                                            <td width="10%" class="no-sort no-click" id="bread-actions-{{$product->id}}">
+                                            <td width="10%" class="no-sort no-click">
                                                 <button type="submit" title="Update Product"
                                                     class="btn btn-info">
                                                     <i class="voyager-edit"></i> <span class="hidden-xs hidden-sm">Update</span>
                                                 </button>
-                                                <a href="javascript:;" title="Delete Product" class="btn btn-sm btn-danger pull-right delete" data-id="{{$product->id}}" id="delete-{{$product->id}}">
-                                                    <i class="voyager-trash"></i> <span class="hidden-xs hidden-sm">Delete</span>
-                                                </a>
                                             </td>
                                         </form>
                                     </tr>

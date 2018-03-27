@@ -15,7 +15,7 @@ Here you'll find proper instructions for the steps to set up the System Project.
 ## Fresh Installation
 
 - **Download BasisComply Project Repository:**
-    - git clone
+    - git clone https://github.com/joselimaneto/coalition-skills-test
 
 - **Install all PHP composer dependencies:**
     - composer install
