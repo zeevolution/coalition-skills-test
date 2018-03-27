@@ -13,7 +13,7 @@
         </div>
         <div id="schedules" class="panel-collapse collapse in">
             <div class="panel-body">
-                <form id="scheduleConfRoomForm"
+                <form id="productForm"
                       action="{{route('products.store')}}"
                       method="POST"
                       enctype="multipart/form-data">
@@ -123,7 +123,7 @@
                                     <td width="20%">
                                         <h4>Total: $ {{$totalProductsValue}}</h4>
                                     </td>
-                                    <td width="10%" class="no-sort no-click" id="bread-actions-{{$product->id}}">
+                                    <td width="10%">
                                     </td>
                                 </tr>
                                 </tbody>
@@ -131,7 +131,7 @@
                         </div>
                     </list>
                 @else
-                    <h4 class="text-center">Não há horários registrados para essa sala de conferência.</h4>
+                    <h4 class="text-center">No products registered.</h4>
                 @endif
             </div>
         </div>

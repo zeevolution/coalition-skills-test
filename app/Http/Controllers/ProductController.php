@@ -56,7 +56,6 @@ class ProductController extends Controller
     public function update(Request $request, $productId)
     {
         $this->productRepository->update($request->all(), $productId);
-        $this->productRepository->find($productId);
         $request->session()->flash('message', 'Product updated successfully.');
 
         return redirect()->route('products.index');
